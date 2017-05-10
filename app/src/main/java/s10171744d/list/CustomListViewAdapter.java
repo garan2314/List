@@ -18,7 +18,7 @@ public class CustomListViewAdapter extends BaseAdapter{
     List<Song> songList;
 
     CustomListViewAdapter(List<Song> songList){
-        songList = songList;
+        this.songList = songList;
     }
 
     @Override
